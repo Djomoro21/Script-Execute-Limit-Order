@@ -114,7 +114,7 @@ async function executeLimitOrder() {
             return;
         }
 
-        const privateKey = "0x905626832849f475ddb85d9e053883d00b750213c9ff010576eb0ed036b6faba";
+        const privateKey = "";
         const signer = new ethers.Wallet(privateKey, provider);
         const contractWithSigner = contract.connect(signer);
         
